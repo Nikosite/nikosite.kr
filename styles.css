@@ -78,14 +78,14 @@ a {
     }
 }
 .day {
-  background-image: url("./Images/WebBackground.gif");
+  background-image: url("https://raw.githubusercontent.com/Nikosite/nikosite.com/240f5a6a46dd5af5d64c610febed84159eb730fa/Images/WebBackground.gif");
   background-color: white;
   .sticky {
   position: fixed;
   background-color: lightgray;
   width: 21vw;
   border: 3px solid gray;
-  top: 328px;
+  top: 323px;
   font-size: 1.9vw;
   text-align: left;
   }
@@ -101,7 +101,7 @@ a {
   }
 }
 .night {
-  background-image: url("./Images/WebBackgroundNight.gif");
+  background-image: url("https://raw.githubusercontent.com/Nikosite/nikosite.com/240f5a6a46dd5af5d64c610febed84159eb730fa/Images/WebBackgroundNight.gif");
   background-color: black;
   .sticky {
   position: fixed;
@@ -109,7 +109,7 @@ a {
   background-color: #2C2C2C;
   width: 21vw;
   border: 3px solid #7F7F7F;
-  top: 328px;
+  top: 323px;
   font-size: 1.9vw;
   text-align: left;
   }
