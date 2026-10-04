@@ -34,9 +34,13 @@ background-color: lightgrey;
 a {
   text-decoration: none;
 }
- img {
-   max-width: 100%;
-   min-height: 100%;
+img {
+  max-width: 100%;
+  min-height: 100%;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast; 
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
 }
 @media (min-height: 333px) {
   img {
@@ -85,7 +89,8 @@ a {
   background-color: lightgray;
   width: 21vw;
   border: 3px solid gray;
-  top: 346px;
+  top: 220px;
+  left: 757px;
   font-size: 1.9vw;
   text-align: left;
   }
@@ -109,7 +114,8 @@ a {
   background-color: #2C2C2C;
   width: 21vw;
   border: 3px solid #7F7F7F;
-  top: 346px;
+  top: 220px;
+  left: 757px;
   font-size: 1.9vw;
   text-align: left;
   }
